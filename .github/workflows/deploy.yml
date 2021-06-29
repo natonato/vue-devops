@@ -45,7 +45,7 @@ jobs:
               uses: peaceiris/actions-gh-pages@v3
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
-                  public_dir: ./dist
+                  publish_dir: ./dist
             # Runs a single command using the runners shell
             - name: Run a one-line script
               run: echo Hello, world!
